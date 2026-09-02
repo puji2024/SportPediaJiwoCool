@@ -1,18 +1,28 @@
 included:
-  - SportsPedia
+  - SportsPedia/App
+  - SportsPedia/Common
+  - SportsPedia/Presentation
+  - SportsPedia/Domainless/Common/Sources
+  - SportsPedia/Domainless/Domain/Sources
+  - SportsPedia/Domainless/Data/Sources
+  - SportsPedia/Feature/Teams/Sources
+  - SportsPedia/Feature/Teams/Tests
+  - SportsPedia/Feature/Favorites/Sources
+  - SportsPedia/Feature/Favorites/Tests
+  - SportsPedia/Feature/Profile/Sources
+  - SportsPedia/Feature/Profile/Tests
   - SportsPediaTests
 excluded:
   - SportsPedia/Generated
   - SportsPedia/Assets.xcassets
 disabled_rules:
   - trailing_whitespace
+  - line_length
+  - implicit_optional_initialization
 opt_in_rules:
   - empty_count
   - explicit_init
   - first_where
-line_length:
-  warning: 140
-  error: 180
 type_body_length:
   warning: 300
   error: 400

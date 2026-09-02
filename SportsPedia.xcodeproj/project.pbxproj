@@ -353,8 +353,8 @@
 			shellScript = "if command -v swiftgen >/dev/null 2>&1; then\n  swiftgen config run --config \"$SRCROOT/swiftgen.yml\"\nelse\n  echo \"note: SwiftGen is not installed; using committed generated files.\"\nfi";
 		};
 		A60000000000000000000007 /* SwiftLint */ = {
-			alwaysOutOfDate = 1;
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -365,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if command -v swiftlint >/dev/null 2>&1; then\n  swiftlint lint --config \"$SRCROOT/.swiftlint.yml\"\nelse\n  echo \"note: SwiftLint is not installed; linting skipped.\"\nfi";
+			shellScript = "if command -v swiftlint >/dev/null 2>&1; then\n  swiftlint lint --config \"$SRCROOT/.swiftlint.yml\"\nelse\n  echo \"note: SwiftLint is not installed; linting skipped.\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
