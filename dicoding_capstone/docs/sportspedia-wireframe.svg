@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <style>
+    .phone{fill:#fff;stroke:#4b5563;stroke-width:3}.bar{fill:#e5e7eb}.line{stroke:#9ca3af;stroke-width:3}.label{font:600 20px -apple-system,BlinkMacSystemFont,Arial;fill:#1f2937}.body{font:16px -apple-system,BlinkMacSystemFont,Arial;fill:#4b5563}.title{font:700 27px -apple-system,BlinkMacSystemFont,Arial;fill:#111827}.small{font:13px -apple-system,BlinkMacSystemFont,Arial;fill:#6b7280}
+  </style>
+  <rect width="1400" height="900" fill="#f8fafc"/>
+  <text x="70" y="72" class="title">SportsPedia — Lo-Fi Wireframe</text>
+  <text x="70" y="102" class="body">Flow: Home → Detail → Save Favorite → Favorites</text>
+  <g transform="translate(70 155)">
+    <rect class="phone" width="270" height="580" rx="28"/>
+    <rect class="bar" x="0" y="0" width="270" height="72" rx="28"/><text x="20" y="43" class="label">SportsPedia</text>
+    <text x="20" y="102" class="small">Explore your teams</text>
+    <g transform="translate(18 120)"><rect class="bar" width="54" height="54" rx="10"/><text x="70" y="23" class="label">Arsenal</text><text x="70" y="44" class="small">England</text></g>
+    <g transform="translate(18 194)"><rect class="bar" width="54" height="54" rx="10"/><text x="70" y="23" class="label">Chelsea</text><text x="70" y="44" class="small">England</text></g>
+    <g transform="translate(18 268)"><rect class="bar" width="54" height="54" rx="10"/><text x="70" y="23" class="label">Liverpool</text><text x="70" y="44" class="small">England</text></g>
+    <line class="line" x1="0" y1="515" x2="270" y2="515"/><text x="26" y="550" class="small">⚽ Teams</text><text x="155" y="550" class="small">♡ Favorites</text>
+  </g>
+  <path d="M365 445 h80" class="line"/><path d="M435 435 l15 10 -15 10" fill="none" class="line"/>
+  <g transform="translate(470 155)">
+    <rect class="phone" width="270" height="580" rx="28"/><rect class="bar" width="270" height="72" rx="28"/>
+    <text x="18" y="43" class="label">‹ Team Detail</text><text x="230" y="43" class="label">♡</text>
+    <rect class="bar" x="85" y="98" width="100" height="100" rx="50"/><text x="72" y="235" class="title">Arsenal</text>
+    <text x="20" y="275" class="small">▣ Est. 1886</text><text x="125" y="275" class="small">⌂ Emirates</text>
+    <text x="20" y="325" class="label">Tentang Tim</text><line class="line" x1="20" y1="345" x2="245" y2="345"/><line class="line" x1="20" y1="365" x2="235" y2="365"/><line class="line" x1="20" y1="385" x2="190" y2="385"/>
+    <rect x="20" y="450" width="230" height="48" rx="14" fill="#d1d5db"/><text x="55" y="480" class="label">♡ Simpan Favorit</text>
+  </g>
+  <path d="M765 445 h80" class="line"/><path d="M835 435 l15 10 -15 10" fill="none" class="line"/>
+  <g transform="translate(870 155)">
+    <rect class="phone" width="270" height="580" rx="28"/><rect class="bar" width="270" height="72" rx="28"/><text x="20" y="43" class="label">Favorites</text>
+    <g transform="translate(18 115)"><rect class="bar" width="54" height="54" rx="10"/><text x="70" y="23" class="label">Arsenal</text><text x="70" y="44" class="small">Geser untuk hapus</text></g>
+    <line class="line" x1="0" y1="515" x2="270" y2="515"/><text x="26" y="550" class="small">⚽ Teams</text><text x="155" y="550" class="small">♥ Favorites</text>
+  </g>
+  <g transform="translate(1170 155)">
+    <rect class="phone" width="160" height="580" rx="28"/><rect class="bar" width="160" height="72" rx="28"/><text x="26" y="43" class="label">Profile</text>
+    <rect class="bar" x="40" y="118" width="80" height="80" rx="40"/><text x="24" y="238" class="label">Nama Anda</text><text x="20" y="265" class="small">iOS Developer</text><text x="20" y="295" class="small">Foto asli</text><text x="20" y="316" class="small">profil Dicoding</text>
+  </g>
+  <text x="70" y="805" class="body">Catatan: layar Favorites menampilkan empty state “Belum ada tim favorit” bila belum ada data tersimpan.</text>
+</svg>
