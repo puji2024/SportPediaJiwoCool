@@ -1,12 +1,12 @@
 {
   "": {
-    "swift-dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/master.swiftdeps"
+    "swift-dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/master.swiftdeps"
   },
-  "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Tests/SportsPediaDataTests/TheSportsDBV2ClientTests.swift": {
-    "dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.d",
-    "object": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.swift.o",
-    "swiftmodule": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests~partial.swiftmodule",
-    "swift-dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.swiftdeps",
-    "diagnostics": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.dia"
+  "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/SportsPediaModules/Tests/SportsPediaDataTests/TheSportsDBV2ClientTests.swift": {
+    "dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.d",
+    "object": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.swift.o",
+    "swiftmodule": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.swiftdeps",
+    "diagnostics": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.dia"
   }
 }
