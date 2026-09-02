@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Hubungan modul SportsPedia</title><desc id="desc">App menghubungkan Presentation, Data, Domain, dan Common.</desc>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif;fill:#14213d}.box{stroke-width:2;rx:18}.label{font-size:20px;font-weight:700}.sub{font-size:14px;fill:#52616b}.arrow{stroke:#52616b;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52616b"/></marker></defs>
+  <rect width="960" height="420" fill="#f7f9fc"/><text x="480" y="44" text-anchor="middle" class="label" font-size="26">SportsPedia — Modularization</text>
+  <rect class="box" x="375" y="72" width="210" height="72" fill="#ffb703" stroke="#c57f00"/><text x="480" y="103" text-anchor="middle" class="label">App</text><text x="480" y="126" text-anchor="middle" class="sub">Composition root</text>
+  <rect class="box" x="60" y="214" width="200" height="90" fill="#d9edff" stroke="#1677bd"/><text x="160" y="249" text-anchor="middle" class="label">Presentation</text><text x="160" y="273" text-anchor="middle" class="sub">Views · ViewModels</text>
+  <rect class="box" x="380" y="214" width="200" height="90" fill="#dff4e4" stroke="#318451"/><text x="480" y="249" text-anchor="middle" class="label">Domain</text><text x="480" y="273" text-anchor="middle" class="sub">Entity · Generic UseCase</text>
+  <rect class="box" x="700" y="214" width="200" height="90" fill="#fce5d8" stroke="#c76528"/><text x="800" y="249" text-anchor="middle" class="label">Data</text><text x="800" y="273" text-anchor="middle" class="sub">API · Core Data</text>
+  <rect class="box" x="380" y="334" width="200" height="58" fill="#ede3fa" stroke="#7654a8"/><text x="480" y="369" text-anchor="middle" class="label">Common</text>
+  <path class="arrow" d="M405 144 L205 214"/><path class="arrow" d="M480 144 L480 214"/><path class="arrow" d="M555 144 L755 214"/><path class="arrow" d="M260 259 L380 259"/><path class="arrow" d="M700 259 L580 259"/><path class="arrow" d="M160 304 L420 334"/><path class="arrow" d="M800 304 L540 334"/>
+</svg>
