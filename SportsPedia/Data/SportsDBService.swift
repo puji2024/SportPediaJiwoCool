@@ -6,18 +6,17 @@
 //
 
 import Foundation
-import SportsPediaData
 
 protocol TeamRemoteDataSource: Sendable {
     func fetchTeams() async throws -> [Team]
 }
 
 struct SportsDBService: TeamRemoteDataSource {
-    private let client: TheSportsDBV2Client
+    private let client: TheSportsDBV1Client
     private let leagueID: String
 
     init(
-        client: TheSportsDBV2Client = TheSportsDBV2Client(apiKey: AppConfiguration.apiV2Key),
+        client: TheSportsDBV1Client = TheSportsDBV1Client(),
         leagueID: String = "4328"
     ) {
         self.client = client
@@ -25,14 +24,18 @@ struct SportsDBService: TeamRemoteDataSource {
     }
 
     func fetchTeams() async throws -> [Team] {
-        try await client.listTeams(inLeague: leagueID).map(Team.init(apiTeam:))
+        return try await client.listTeams(inLeague: leagueID).map(Team.init(apiTeam:))
     }
 }
 
 enum SportsDBError: LocalizedError {
     case invalidResponse
 
-    var errorDescription: String? { L10n.Error.server }
+    var errorDescription: String? {
+        switch self {
+        case .invalidResponse: L10n.Error.server
+        }
+    }
 }
 
 private extension Team {
