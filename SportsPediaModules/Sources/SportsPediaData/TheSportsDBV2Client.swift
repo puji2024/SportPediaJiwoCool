@@ -1,6 +1,6 @@
 import Foundation
 import SportsPediaCommon
-import SportsPediaDomain
+@_exported import SportsPediaDomain
 
 /// Type-safe representation of TheSportsDB v2 REST paths.
 public enum SportsDBV2Endpoint: Sendable, Equatable {

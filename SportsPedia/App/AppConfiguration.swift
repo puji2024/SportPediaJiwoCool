@@ -8,14 +8,5 @@
 import Foundation
 
 enum AppConfiguration {
-    private static let apiV2KeyName = "API_V2_KEY"
-
-    static var apiV2Key: String {
-        guard let value = Bundle.main.object(forInfoDictionaryKey: apiV2KeyName) as? String,
-              !value.isEmpty,
-              !value.contains("$(") else {
-            preconditionFailure("API_V2_KEY belum dikonfigurasi pada Build Settings.")
-        }
-        return value
-    }
+    static let sportsDBBaseURL = URL(string: "https://www.thesportsdb.com/api/v1/json/3")!
 }

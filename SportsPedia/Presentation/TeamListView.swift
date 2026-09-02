@@ -39,6 +39,16 @@ struct TeamListView: View {
             .searchable(text: $viewModel.searchText, prompt: Text(L10n.Teams.search))
             .toolbar {
                 Menu {
+                    Picker("Filter", selection: $viewModel.filterField) {
+                        Text("Semua").tag(TeamFilterField.all)
+                        Text("Nama Tim").tag(TeamFilterField.name)
+                        Text("Negara").tag(TeamFilterField.country)
+                    }
+                } label: {
+                    Label("Filter", systemImage: "line.3.horizontal.decrease.circle")
+                }
+                .accessibilityIdentifier("team-filter-menu")
+                Menu {
                     Picker(L10n.Teams.sort, selection: $viewModel.sort) {
                         Text(L10n.Teams.Sort.name).tag(TeamSort.name)
                         Text(L10n.Teams.Sort.country).tag(TeamSort.country)
