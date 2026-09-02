@@ -48,7 +48,6 @@
 		219762AA3047E2770087AD51 /* Profile */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Profile; sourceTree = "<group>"; };
 		219762AB3047E2E30087AD51 /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Common; sourceTree = "<group>"; };
 		219762AC3047E2E30087AD51 /* Data */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Data; sourceTree = "<group>"; };
-		219762AD3047E2E30087AD51 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
 		A20000000000000000000001 /* SportsPediaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsPediaApp.swift; sourceTree = "<group>"; };
 		A20000000000000000000008 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		A20000000000000000000013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +114,6 @@
 			children = (
 				219762AB3047E2E30087AD51 /* Common */,
 				219762AC3047E2E30087AD51 /* Data */,
-				219762AD3047E2E30087AD51 /* Domain */,
 			);
 			path = Domainless;
 			sourceTree = "<group>";
@@ -306,7 +304,7 @@
 				D00000000000000000000003 /* XCLocalSwiftPackageReference "SportsPedia/Feature/Profile" */,
 				D00000000000000000000004 /* XCLocalSwiftPackageReference "SportsPedia/Domainless/Common" */,
 				D00000000000000000000005 /* XCLocalSwiftPackageReference "SportsPedia/Domainless/Data" */,
-				D00000000000000000000006 /* XCLocalSwiftPackageReference "SportsPedia/Domainless/Domain" */,
+				F40000000000000000000001 /* XCRemoteSwiftPackageReference "DomainPedia" */,
 			);
 			productRefGroup = A30000000000000000000006 /* Products */;
 			projectDirPath = "";
@@ -556,10 +554,6 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = SportsPedia/Domainless/Data;
 		};
-		D00000000000000000000006 /* XCLocalSwiftPackageReference "SportsPedia/Domainless/Domain" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = SportsPedia/Domainless/Domain;
-		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -569,6 +563,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.21.0;
+			};
+		};
+		F40000000000000000000001 /* XCRemoteSwiftPackageReference "DomainPedia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/puji2024/DomainPedia.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -586,7 +588,7 @@
 		};
 		2121799E3047E54400B31C42 /* Domain */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D00000000000000000000006 /* XCLocalSwiftPackageReference "SportsPedia/Domainless/Domain" */;
+			package = F40000000000000000000001 /* XCRemoteSwiftPackageReference "DomainPedia" */;
 			productName = Domain;
 		};
 		212179A03047E54400B31C42 /* Favorites */ = {
@@ -616,7 +618,7 @@
 		};
 		E30000000000000000000003 /* Domain */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D00000000000000000000006 /* XCLocalSwiftPackageReference "SportsPedia/Domainless/Domain" */;
+			package = F40000000000000000000001 /* XCRemoteSwiftPackageReference "DomainPedia" */;
 			productName = Domain;
 		};
 /* End XCSwiftPackageProductDependency section */
