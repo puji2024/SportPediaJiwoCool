@@ -13,13 +13,16 @@ let package = Package(
             targets: ["Data"]
         ),
     ],
-    dependencies: [.package(path: "../Common"), .package(path: "../Domain")],
+    dependencies: [
+        .package(path: "../Common"),
+        .package(url: "https://github.com/puji2024/DomainPedia.git", from: "1.0.0")
+    ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "Data",
-            dependencies: [.product(name: "Common", package: "Common"), .product(name: "Domain", package: "Domain")]
+            dependencies: [.product(name: "Common", package: "Common"), .product(name: "Domain", package: "DomainPedia")]
         ),
     ]
 )

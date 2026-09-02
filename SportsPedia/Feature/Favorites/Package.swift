@@ -14,16 +14,16 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(path: "../../Domainless/Domain"),
+        .package(url: "https://github.com/puji2024/DomainPedia.git", from: "1.0.0"),
         .package(path: "../Teams")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
-        .target(name: "Favorites", dependencies: ["Domain", "Teams"]),
+        .target(name: "Favorites", dependencies: [.product(name: "Domain", package: "DomainPedia"), "Teams"]),
         .testTarget(
             name: "FavoritesTests",
-            dependencies: ["Favorites", "Domain"]
+            dependencies: ["Favorites", .product(name: "Domain", package: "DomainPedia")]
         ),
     ]
 )
