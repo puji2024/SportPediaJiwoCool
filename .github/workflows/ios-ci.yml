@@ -19,8 +19,11 @@ jobs:
         run: brew install swiftlint
       - name: Lint app and package modules
         run: swiftlint lint --strict --config .swiftlint.yml
-      - name: Test modular Swift Package
-        run: swift test --package-path SportsPediaModules
+      - name: Test feature Swift Packages
+        run: |
+          swift test --package-path SportsPedia/Feature/Teams
+          swift test --package-path SportsPedia/Feature/Favorites
+          swift test --package-path SportsPedia/Feature/Profile
       - name: Resolve local package
         run: >-
           xcodebuild -resolvePackageDependencies
