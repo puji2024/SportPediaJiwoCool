@@ -1,12 +1,9 @@
 included:
   - SportsPedia
   - SportsPediaTests
-  - SportsPediaModules/Sources
-  - SportsPediaModules/Tests
 excluded:
   - SportsPedia/Generated
   - SportsPedia/Assets.xcassets
-  - SportsPediaModules/.build
 disabled_rules:
   - trailing_whitespace
 opt_in_rules:
