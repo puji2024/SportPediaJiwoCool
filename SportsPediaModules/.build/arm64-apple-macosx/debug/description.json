@@ -1,0 +1,1023 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.xctest/Contents/MacOS/SportsPediaModulesPackageTests",
+      "packagePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules",
+      "productName" : "SportsPediaModulesPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SportsPediaCommon-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/sources",
+      "importPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaCommon/HTTPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SportsPediaCommon",
+      "moduleOutputPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaCommon.swiftmodule",
+      "objects" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/include/SportsPediaCommon-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sportspediamodules"
+      ],
+      "outputFileMapPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaCommon.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaCommon/HTTPClient.swift"
+      ],
+      "tempsPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SportsPediaData-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/sources",
+      "importPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaData/TheSportsDBV2Client.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaCommon.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaDomain.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SportsPediaData",
+      "moduleOutputPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaData.swiftmodule",
+      "objects" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/TheSportsDBV2Client.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/include/SportsPediaData-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sportspediamodules"
+      ],
+      "outputFileMapPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/TheSportsDBV2Client.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaData.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaData/TheSportsDBV2Client.swift"
+      ],
+      "tempsPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SportsPediaDataTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/sources",
+      "importPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Tests/SportsPediaDataTests/TheSportsDBV2ClientTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaCommon.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaData.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SportsPediaDataTests",
+      "moduleOutputPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaDataTests.swiftmodule",
+      "objects" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sportspediamodules"
+      ],
+      "outputFileMapPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaDataTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Tests/SportsPediaDataTests/TheSportsDBV2ClientTests.swift"
+      ],
+      "tempsPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SportsPediaDomain-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/sources",
+      "importPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaDomain/SportsTeam.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SportsPediaDomain",
+      "moduleOutputPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaDomain.swiftmodule",
+      "objects" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/SportsTeam.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/include/SportsPediaDomain-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sportspediamodules"
+      ],
+      "outputFileMapPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/SportsTeam.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaDomain.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaDomain/SportsTeam.swift"
+      ],
+      "tempsPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SportsPediaModulesPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/sources",
+      "importPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaDataTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SportsPediaModulesPackageTests",
+      "moduleOutputPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaModulesPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/include/SportsPediaModulesPackageTests-Swift.h",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "sportspediamodules"
+      ],
+      "outputFileMapPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules/SportsPediaModulesPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SportsPediaCommon" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SportsPediaCommon",
+      "-package-name",
+      "sportspediamodules",
+      "-c",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaCommon/HTTPClient.swift",
+      "-I",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/include/SportsPediaCommon-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sportspediamodules",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SportsPediaData" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SportsPediaData",
+      "-package-name",
+      "sportspediamodules",
+      "-c",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaData/TheSportsDBV2Client.swift",
+      "-I",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/include/SportsPediaData-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sportspediamodules",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SportsPediaDataTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SportsPediaDataTests",
+      "-package-name",
+      "sportspediamodules",
+      "-c",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Tests/SportsPediaDataTests/TheSportsDBV2ClientTests.swift",
+      "-I",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sportspediamodules",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SportsPediaDomain" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SportsPediaDomain",
+      "-package-name",
+      "sportspediamodules",
+      "-c",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaDomain/SportsTeam.swift",
+      "-I",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/include/SportsPediaDomain-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sportspediamodules",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SportsPediaModulesPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SportsPediaModulesPackageTests",
+      "-package-name",
+      "sportspediamodules",
+      "-c",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/include/SportsPediaModulesPackageTests-Swift.h",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "sportspediamodules",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SportsPediaCommon" : [
+
+    ],
+    "SportsPediaData" : [
+      "SportsPediaDomain",
+      "SportsPediaCommon"
+    ],
+    "SportsPediaDataTests" : [
+      "SportsPediaData",
+      "SportsPediaDomain",
+      "SportsPediaCommon"
+    ],
+    "SportsPediaDomain" : [
+
+    ],
+    "SportsPediaModulesPackageTests" : [
+      "SportsPediaDataTests",
+      "SportsPediaData",
+      "SportsPediaDomain",
+      "SportsPediaCommon"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaCommon/HTTPClient.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/sources"
+    },
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaData/TheSportsDBV2Client.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/sources"
+    },
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Tests/SportsPediaDataTests/TheSportsDBV2ClientTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/sources"
+    },
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaDomain/SportsTeam.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/sources"
+    },
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/sources"
+    },
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaData.build/TheSportsDBV2Client.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDataTests.build/TheSportsDBV2ClientTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaDomain.build/SportsTeam.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.build/runner.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaModulesPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

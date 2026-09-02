@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/master.swiftdeps"
+  },
+  "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/Sources/SportsPediaCommon/HTTPClient.swift": {
+    "dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient.d",
+    "object": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient.swift.o",
+    "swiftmodule": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient.swiftdeps",
+    "diagnostics": "/Users/jds/AndroidStudioProjects/githubpuji/SportPediaJiwoCool/dicoding_capstone/SportsPediaModules/.build/arm64-apple-macosx/debug/SportsPediaCommon.build/HTTPClient.dia"
+  }
+}
