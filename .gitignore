@@ -1,0 +1,4 @@
+.DS_Store
+DerivedData/
+SportsPediaModules/.build/
+SportsPediaModules/.swiftpm/xcode/xcuserdata/

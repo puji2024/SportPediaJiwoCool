@@ -1,0 +1,29 @@
+included:
+  - SportsPedia
+  - SportsPediaTests
+  - SportsPediaModules/Sources
+  - SportsPediaModules/Tests
+excluded:
+  - SportsPedia/Generated
+  - SportsPedia/Assets.xcassets
+  - SportsPediaModules/.build
+disabled_rules:
+  - trailing_whitespace
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - first_where
+line_length:
+  warning: 140
+  error: 180
+type_body_length:
+  warning: 300
+  error: 400
+file_length:
+  warning: 500
+  error: 800
+identifier_name:
+  min_length: 2
+  excluded:
+    - id
+reporter: "xcode"

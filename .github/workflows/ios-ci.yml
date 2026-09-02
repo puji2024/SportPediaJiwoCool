@@ -1,0 +1,58 @@
+name: iOS CI
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  quality:
+    name: Lint, test, and analyze
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install SwiftLint
+        run: brew install swiftlint
+      - name: Lint app and package modules
+        run: swiftlint lint --strict --config .swiftlint.yml
+      - name: Test modular Swift Package
+        run: swift test --package-path SportsPediaModules
+      - name: Resolve local package
+        run: >-
+          xcodebuild -resolvePackageDependencies
+          -project SportsPedia.xcodeproj
+          -scheme SportsPedia
+      - name: Build and test app with coverage
+        run: >-
+          xcodebuild test
+          -project SportsPedia.xcodeproj
+          -scheme SportsPedia
+          -destination 'platform=iOS Simulator,name=iPhone 16'
+          -enableCodeCoverage YES
+          -resultBundlePath TestResults.xcresult
+          CODE_SIGNING_ALLOWED=NO
+      - name: Export coverage summary
+        if: always()
+        continue-on-error: true
+        run: xcrun xccov view --report TestResults.xcresult > coverage.txt
+      - name: Upload test and coverage artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-and-coverage
+          path: |
+            TestResults.xcresult
+            coverage.txt
+          if-no-files-found: warn
+
+  dependency-review:
+    name: Dependency vulnerability review
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Review dependency changes
+        uses: actions/dependency-review-action@v4
