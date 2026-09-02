@@ -1,12 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
-  <title id="title">Hubungan modul SportsPedia</title><desc id="desc">App menghubungkan Presentation, Data, Domain, dan Common.</desc>
-  <style>text{font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif;fill:#14213d}.box{stroke-width:2;rx:18}.label{font-size:20px;font-weight:700}.sub{font-size:14px;fill:#52616b}.arrow{stroke:#52616b;stroke-width:3;fill:none;marker-end:url(#arrow)}</style>
-  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#52616b"/></marker></defs>
-  <rect width="960" height="420" fill="#f7f9fc"/><text x="480" y="44" text-anchor="middle" class="label" font-size="26">SportsPedia — Modularization</text>
-  <rect class="box" x="375" y="72" width="210" height="72" fill="#ffb703" stroke="#c57f00"/><text x="480" y="103" text-anchor="middle" class="label">App</text><text x="480" y="126" text-anchor="middle" class="sub">Composition root</text>
-  <rect class="box" x="60" y="214" width="200" height="90" fill="#d9edff" stroke="#1677bd"/><text x="160" y="249" text-anchor="middle" class="label">Presentation</text><text x="160" y="273" text-anchor="middle" class="sub">Views · ViewModels</text>
-  <rect class="box" x="380" y="214" width="200" height="90" fill="#dff4e4" stroke="#318451"/><text x="480" y="249" text-anchor="middle" class="label">Domain</text><text x="480" y="273" text-anchor="middle" class="sub">Entity · Generic UseCase</text>
-  <rect class="box" x="700" y="214" width="200" height="90" fill="#fce5d8" stroke="#c76528"/><text x="800" y="249" text-anchor="middle" class="label">Data</text><text x="800" y="273" text-anchor="middle" class="sub">API · Core Data</text>
-  <rect class="box" x="380" y="334" width="200" height="58" fill="#ede3fa" stroke="#7654a8"/><text x="480" y="369" text-anchor="middle" class="label">Common</text>
-  <path class="arrow" d="M405 144 L205 214"/><path class="arrow" d="M480 144 L480 214"/><path class="arrow" d="M555 144 L755 214"/><path class="arrow" d="M260 259 L380 259"/><path class="arrow" d="M700 259 L580 259"/><path class="arrow" d="M160 304 L420 334"/><path class="arrow" d="M800 304 L540 334"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="620" viewBox="0 0 1120 620" role="img" aria-labelledby="title desc">
+  <title id="title">Arsitektur modular SportsPedia</title>
+  <desc id="desc">App menghubungkan local package Common, Data, Domain, Teams, Favorites, dan Profile. Data menggunakan Common dan Domain; Teams menggunakan Domain; Favorites menggunakan Teams dan Domain. Needle menghubungkan App ke repository Data melalui kontrak Domain.</desc>
+  <style>
+    text{font-family:-apple-system,BlinkMacSystemFont,Arial,sans-serif;fill:#152238}.title{font-size:27px;font-weight:700}.label{font-size:20px;font-weight:700}.sub{font-size:14px;fill:#516174}.small{font-size:13px;fill:#516174}.box{stroke-width:2;rx:18}.arrow{stroke:#64748b;stroke-width:2.5;fill:none;marker-end:url(#arrow)}.dashed{stroke-dasharray:7 6}.note{font-size:13px;fill:#8a541b}
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+  </defs>
+  <rect width="1120" height="620" fill="#f8fafc"/>
+  <text x="560" y="43" text-anchor="middle" class="title">SportsPedia — local Swift Package modularization</text>
+  <text x="560" y="67" text-anchor="middle" class="small">Satu Git repository · package berada di dalam folder SportsPedia</text>
+
+  <rect class="box" x="440" y="96" width="240" height="82" fill="#ffbf4d" stroke="#c67d05"/>
+  <text x="560" y="128" text-anchor="middle" class="label">App</text>
+  <text x="560" y="151" text-anchor="middle" class="sub">AppComponent · RootView</text>
+
+  <rect class="box" x="72" y="236" width="200" height="100" fill="#e2f0ff" stroke="#247bbd"/>
+  <text x="172" y="270" text-anchor="middle" class="label">Teams</text>
+  <text x="172" y="294" text-anchor="middle" class="sub">List · Filter · Detail</text>
+  <text x="172" y="316" text-anchor="middle" class="small">Feature package</text>
+
+  <rect class="box" x="322" y="236" width="200" height="100" fill="#fee7ef" stroke="#c44975"/>
+  <text x="422" y="270" text-anchor="middle" class="label">Favorites</text>
+  <text x="422" y="294" text-anchor="middle" class="sub">Saved teams</text>
+  <text x="422" y="316" text-anchor="middle" class="small">Feature package</text>
+
+  <rect class="box" x="572" y="236" width="200" height="100" fill="#eee8ff" stroke="#755ac7"/>
+  <text x="672" y="270" text-anchor="middle" class="label">Profile</text>
+  <text x="672" y="294" text-anchor="middle" class="sub">Developer profile</text>
+  <text x="672" y="316" text-anchor="middle" class="small">Feature package</text>
+
+  <rect class="box" x="822" y="236" width="226" height="100" fill="#e1f6e8" stroke="#278a50"/>
+  <text x="935" y="270" text-anchor="middle" class="label">Domain</text>
+  <text x="935" y="294" text-anchor="middle" class="sub">Team · contracts · use cases</text>
+  <text x="935" y="316" text-anchor="middle" class="small">Domainless package</text>
+
+  <rect class="box" x="332" y="430" width="220" height="104" fill="#ffe9dc" stroke="#c96b30"/>
+  <text x="442" y="464" text-anchor="middle" class="label">Data</text>
+  <text x="442" y="488" text-anchor="middle" class="sub">TheSportsDB v1 · Core Data</text>
+  <text x="442" y="510" text-anchor="middle" class="small">Domainless package</text>
+
+  <rect class="box" x="680" y="430" width="220" height="104" fill="#eee5fb" stroke="#7856ad"/>
+  <text x="790" y="464" text-anchor="middle" class="label">Common</text>
+  <text x="790" y="488" text-anchor="middle" class="sub">SportsPediaAPI · Needle</text>
+  <text x="790" y="510" text-anchor="middle" class="small">Domainless package</text>
+
+  <path class="arrow" d="M485 178 L208 236"/>
+  <path class="arrow" d="M530 178 L455 236"/>
+  <path class="arrow" d="M590 178 L642 236"/>
+  <path class="arrow" d="M655 178 L880 236"/>
+  <path class="arrow" d="M322 286 L272 286"/>
+  <path class="arrow" d="M172 336 C172 390 760 390 880 336"/>
+  <path class="arrow" d="M422 336 C422 415 790 415 900 336"/>
+  <path class="arrow" d="M442 430 L830 336"/>
+  <path class="arrow" d="M552 482 L680 482"/>
+  <path class="arrow dashed" d="M560 178 L470 430"/>
+  <text x="492" y="390" text-anchor="middle" class="note">Needle provides TeamRepository</text>
+
+  <text x="560" y="586" text-anchor="middle" class="small">Arrow points toward the package being depended on. Profile has no package dependency.</text>
 </svg>

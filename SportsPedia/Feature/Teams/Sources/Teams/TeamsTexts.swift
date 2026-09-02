@@ -1,0 +1,8 @@
+import Foundation
+
+enum TeamsTexts {
+    private static func value(_ key: String, _ fallback: String) -> String { Bundle.main.localizedString(forKey: key, value: fallback, table: "Localizable") }
+    static let teamsTitle = value("teams.title", "SportsPedia"); static let search = value("teams.search", "Cari nama atau negara tim"); static let retry = value("teams.retry", "Coba Lagi"); static let unavailableTitle = value("teams.unavailable.title", "Tidak dapat memuat tim"); static let connectionError = value("error.connection", "Koneksi Terputus. Silakan coba lagi."); static let loading = value("teams.loading", "Memuat tim…"); static let sort = value("teams.sort", "Urutkan"); static let sortName = value("teams.sort.name", "Nama tim"); static let sortCountry = value("teams.sort.country", "Negara"); static let countryFallback = value("team.countryFallback", "Football Club"); static let detailTitle = value("detail.title", "Team Detail"); static let formedYear = value("detail.formedYear", "Tahun tidak tersedia"); static let stadium = value("detail.stadium", "Stadion tidak tersedia"); static let about = value("about.team", "Tentang Tim"); static let descriptionFallback = value("team.descriptionFallback", "Deskripsi tim belum tersedia."); static let favoriteRemove = value("detail.favorite.remove", "Hapus dari favorit"); static let favoriteSave = value("detail.favorite.save", "Simpan ke favorit")
+    static func established(_ year: String) -> String { String(format: value("detail.established", "Est. %@"), year) }
+    static func logo(_ name: String) -> String { String(format: value("detail.logo", "Logo %@"), name) }
+}
