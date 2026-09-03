@@ -27,11 +27,17 @@ struct RootView: View {
     var body: some View {
         TabView {
             Teams.TeamListView(viewModel: teamsViewModel, favoriteUseCase: favoriteUseCase)
-                .tabItem { Label(L10n.Tabs.teams, systemImage: "sportscourt") }
+                .tabItem {
+                    Label(L10n.Tabs.teams, systemImage: "sportscourt")
+                }
             Favorites.FavoritesView(viewModel: favoritesViewModel, favoriteUseCase: favoriteUseCase)
-                .tabItem { Label(L10n.Tabs.favorites, systemImage: "heart.fill") }
+                .tabItem {
+                    Label(L10n.Tabs.favorites, systemImage: "heart.fill")
+                }
             Profile.ProfileView()
-                .tabItem { Label(L10n.Tabs.profile, systemImage: "person.crop.circle") }
+                .tabItem {
+                    Label(L10n.Tabs.profile, systemImage: "person.crop.circle")
+                }
         }
         .tint(.orange)
     }
