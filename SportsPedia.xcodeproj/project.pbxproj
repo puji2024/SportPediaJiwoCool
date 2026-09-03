@@ -17,13 +17,9 @@
 		A10000000000000000000008 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* RootView.swift */; };
 		A10000000000000000000013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* Assets.xcassets */; };
 		A10000000000000000000015 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* AppConfiguration.swift */; };
-		A10000000000000000000016 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* Strings.swift */; };
 		A10000000000000000000017 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* Assets.swift */; };
-		A10000000000000000000018 /* id.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* id.lproj/Localizable.strings */; };
 		A10000000000000000000019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* LaunchScreen.storyboard */; };
 		A10000000000000000000022 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* XCTest.framework */; };
-		A10000000000000000000024 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000026 /* Localization.swift */; };
-		A10000000000000000000025 /* en.lproj/Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000027 /* en.lproj/Localizable.strings */; };
 		C10000000000000000000001 /* DI/AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000001 /* DI/AppComponent.swift */; };
 		C10000000000000000000002 /* NeedleGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20000000000000000000002 /* NeedleGenerated.swift */; };
 		E10000000000000000000001 /* SportsPediaAPIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20000000000000000000001 /* SportsPediaAPIIntegrationTests.swift */; };
@@ -53,14 +49,10 @@
 		A20000000000000000000013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20000000000000000000014 /* SportsPedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsPedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20000000000000000000016 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
-		A20000000000000000000017 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		A20000000000000000000018 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
-		A20000000000000000000019 /* id.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = id.lproj/Localizable.strings; sourceTree = "<group>"; };
 		A20000000000000000000020 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A20000000000000000000023 /* SportsPediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsPediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A20000000000000000000024 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = System/Library/Frameworks/XCTest.framework; sourceTree = SDKROOT; };
-		A20000000000000000000026 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
-		A20000000000000000000027 /* en.lproj/Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C20000000000000000000001 /* DI/AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI/AppComponent.swift; sourceTree = "<group>"; };
 		C20000000000000000000002 /* NeedleGenerated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeedleGenerated.swift; sourceTree = "<group>"; };
 		E20000000000000000000001 /* SportsPediaAPIIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsPediaAPIIntegrationTests.swift; sourceTree = "<group>"; };
@@ -145,7 +137,6 @@
 				219762A53047DC660087AD51 /* Feature */,
 				219762A43047DC570087AD51 /* Domainless */,
 				A30000000000000000000003 /* App */,
-				A30000000000000000000011 /* Common */,
 				A30000000000000000000007 /* Presentation */,
 				A30000000000000000000008 /* Generated */,
 				A30000000000000000000009 /* Resources */,
@@ -184,7 +175,6 @@
 		A30000000000000000000008 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				A20000000000000000000017 /* Strings.swift */,
 				A20000000000000000000018 /* Assets.swift */,
 				C20000000000000000000002 /* NeedleGenerated.swift */,
 			);
@@ -194,8 +184,6 @@
 		A30000000000000000000009 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A20000000000000000000019 /* id.lproj/Localizable.strings */,
-				A20000000000000000000027 /* en.lproj/Localizable.strings */,
 				A20000000000000000000020 /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
@@ -207,14 +195,6 @@
 				E20000000000000000000001 /* SportsPediaAPIIntegrationTests.swift */,
 			);
 			path = SportsPediaTests;
-			sourceTree = "<group>";
-		};
-		A30000000000000000000011 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				A20000000000000000000026 /* Localization.swift */,
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,9 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000000000000000000013 /* Assets.xcassets in Resources */,
-				A10000000000000000000018 /* id.lproj/Localizable.strings in Resources */,
 				A10000000000000000000019 /* LaunchScreen.storyboard in Resources */,
-				A10000000000000000000025 /* en.lproj/Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,12 +316,10 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/swiftgen.yml",
-				"$(SRCROOT)/SportsPedia/Resources/id.lproj",
 				"$(SRCROOT)/SportsPedia/Assets.xcassets",
 			);
 			name = SwiftGen;
 			outputPaths = (
-				"$(SRCROOT)/SportsPedia/Generated/Strings.swift",
 				"$(SRCROOT)/SportsPedia/Generated/Assets.swift",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,9 +352,7 @@
 				C10000000000000000000001 /* DI/AppComponent.swift in Sources */,
 				C10000000000000000000002 /* NeedleGenerated.swift in Sources */,
 				A10000000000000000000015 /* AppConfiguration.swift in Sources */,
-				A10000000000000000000024 /* Localization.swift in Sources */,
 				A10000000000000000000008 /* RootView.swift in Sources */,
-				A10000000000000000000016 /* Strings.swift in Sources */,
 				A10000000000000000000017 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

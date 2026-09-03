@@ -1,4 +1,5 @@
 import Combine
+import Common
 import Domain
 import Foundation
 import Testing
@@ -54,7 +55,14 @@ struct TeamsViewModelTests {
         sut.load()
         await Task.yield()
 
-        #expect(sut.state == .failed("Koneksi Terputus. Silakan coba lagi."))
+        #expect(
+            sut.state == .failed(
+                CommonLocalization.string(
+                    "error.connection",
+                    fallback: "Koneksi Terputus. Silakan coba lagi."
+                )
+            )
+        )
     }
 
     @Test("Detail memuat lalu mengganti status favorit")

@@ -5,6 +5,7 @@
 //  Created by Puji Wahono on 01/09/26.
 //
 
+import Common
 import Domain
 import Favorites
 import Profile
@@ -28,15 +29,24 @@ struct RootView: View {
         TabView {
             Teams.TeamListView(viewModel: teamsViewModel, favoriteUseCase: favoriteUseCase)
                 .tabItem {
-                    Label(L10n.Tabs.teams, systemImage: "sportscourt")
+                    Label(
+                        CommonLocalization.string("tabs.teams", fallback: "Teams"),
+                        systemImage: "sportscourt"
+                    )
                 }
             Favorites.FavoritesView(viewModel: favoritesViewModel, favoriteUseCase: favoriteUseCase)
                 .tabItem {
-                    Label(L10n.Tabs.favorites, systemImage: "heart.fill")
+                    Label(
+                        CommonLocalization.string("tabs.favorites", fallback: "Favorites"),
+                        systemImage: "heart.fill"
+                    )
                 }
             Profile.ProfileView()
                 .tabItem {
-                    Label(L10n.Tabs.profile, systemImage: "person.crop.circle")
+                    Label(
+                        CommonLocalization.string("tabs.profile", fallback: "Profile"),
+                        systemImage: "person.crop.circle"
+                    )
                 }
         }
         .tint(.orange)
